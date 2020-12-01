@@ -47,12 +47,9 @@ function start() {
           break;
 
         // case "Update Employee Role":
-        //   // updateEmployeeRole
+        //   updateEmployeeRole();
         //   break;
 
-        // case "Update Employee Manager":
-        //   // updateEmployeeManager
-        //   break;
       }
     });
 }
@@ -119,6 +116,7 @@ async function addEmployee() {
       message: "What is the new Employee's last name?",
       type: "input"
     },
+    // This function would not work if I included a function for adding roles
     {
       name: "roleid",
       message: "What is the new Employee's role?",
@@ -145,6 +143,9 @@ async function addEmployee() {
 
 }
 
+// function updateEmployeeRole(){
+
+// }
 
 
 
